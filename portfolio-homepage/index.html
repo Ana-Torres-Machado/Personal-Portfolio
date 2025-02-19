@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Personal Portfolio</title>
+    <!-- <link ref="stylesheet" href=""> -->
+</head>
+<body class="bg-indigo-900">
+    <!--Header-->
+    <div>
+    <img src="../Logo.png" alt="Portfolio Logo" class="col-span-1 col-start-1 float-left w-35">
+    <h1 class="col-span-2 col-start-full text-4xl font-mono italic text-white">Ana Isabela Torres Machado</h1>
+    <!--Bars icon: col-span-1 col-start-5-->
+    </div>
+    <br>
+    <br>
+    <!--Navigation Bar-->
+    <div class="flex col-span-5 bg-sky-500 h-24 justify-center items-center w-screen">
+        <nav class="flex gap-30 justify-between">
+            <div><a href="#">Home</a></div>
+            <div><a href="#Projects">Projects</a></div> <!--Currently a placeholder-->
+            <div><a href="#Intro">About Me</a></div>
+        </nav>
+    </div>
+
+    <h2 class="text-7xl font-mono underline text-white pt-5">Check Out My Work!</h2> <!--Call to Action-->
+    <br>
+    <br>
+    <br>
+    <!--Short Introduction-->
+    <h2 id="Intro" class="text-2xl flex font-mono italic text-white sm:text-left col-span-1 col-start-1">Short Introduction</h2>
+    <img src="../Portrait.jpg" alt="portrait" class="float-right rounded-full h-140">
+    <div class="flex bg-violet-500 border-4 border-cyan-400 rounded-t-md col-span-3 col-start-1 justify-start w-3/4"> <!--I made the box this color in order to allow it to pop from the background and the rest of thee document-->
+        <div class="gap-10 flex">
+            <p class="font-mono italic text-white sm:text-left">English</p>
+            <p class="p-5 flex sm:text-left">I am 16 years old. I am a current 1st year West-MEC student. My current proficiencies are HTML, CSS and Tailwind. I am also an artist and fluent in Spanish if you also need to reach out that way!</p>
+        </div>
+    </div>
+    <div class="flex bg-violet-500 border-4 border-cyan-400 rounded-b-md col-span-3 col-start-1 justify-start w-3/4"> <!--I made the box this color in order to allow it to pop from the background and the rest of thee document-->
+        <div class="gap-10 flex">
+            <p class="font-mono italic text-white sm:text-left">Español</p>
+            <p class="p-5 flex sm:text-left">Tengo 16 años de edad. Soy estudiante de 1er año en West-MEC. Mis especialidades en este momento son HTML, CSS, y Tailwind. Tambien soy artista,¡y soy fluida en Español si se quieren comunicar de esta manera!</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="items-start">
+        <h2 class="text-2xl flex font-mono italic text-white sm:text-left col-span-1 col-start-1" id="Projects">My Projects</h2>
+        <div class="flex bg-cyan-400 border-4 border-violet-500 rounded-md pb-30 w-175 h-125"> <!--I made the box this color in order to allow it to pop from the background and the rest of thee document-->
+            <div class="gap-10 flex">
+                <img src="../Mono_Screenshot.png" alt="Monochromatic Site Screenshot" class="flex w-auto h-auto pt-20">
+            </div>
+        </div>
+        <div class="flex bg-cyan-400 border-4 border-violet-500 rounded-md pb-30 w-175 float-right"> <!--I made the box this color in order to allow it to pop from the background and the rest of thee document-->
+            <div class="gap-10 flex">
+                <img src="../Blog_Screenshot.png" alt="Blog Screenshot" class="flex w-auto h-auto pt-20">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--Footer-->
+    <div class="flex col-span-5 bg-sky-500 h-24 w-screen">
+        <div class="flex gap-30 justify-between">
+            <img src="../Logo.png" alt="Portfolio Logo" class="col-span-1 col-start-1">
+            <ul>
+                <li><a href="https://github.com/Ana-Torres-Machado" target="_blank">My GitHub Account</a></li>
+                <li><a href="https://www.west-mec.edu/" target="_blank">West-MEC website</a></li> <!--Not 100% sure if I will actually keep this-->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
